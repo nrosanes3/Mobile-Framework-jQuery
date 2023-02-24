@@ -1,0 +1,48 @@
+div.header img {
+    width: 100px;
+}
+
+.type-dialog .ui-content > img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.ui-content > img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: left top;
+}
+
+ul.list-view img {
+    width: 200px;
+    object-fit: cover;
+}
+
+div.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: #000;
+}
+
+a.menu-button {
+    /* align-items: center; */
+    margin: 0;
+}
+
+div.ui-popup-container {
+    top: 70px !important;
+    left: 0px !important;
+}
+
+div.ui-popup {
+    width: 100vw;
+}
+
+.ui-btn.ui-btn-b, .ui-btn-active  {
+    background-color: #c8c7e9 !important;
+    color: #000 !important;
+}
